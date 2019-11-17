@@ -10,3 +10,5 @@
   * fix : si on supprime un équipement alors que sur un autre onglet on affiche le dashboard, alors JeeDore affiche un smiley rouge
   * add : envoi des plusieurs ids par la central pour faire les modifications en même temps
   * add : ajout d'un modèle compatible
+* 1.1.1
+  * Ajout de l'architecture i686

@@ -12,3 +12,7 @@
   * add : ajout d'un modèle compatible
 * 1.1.1
   * Ajout de l'architecture i686
+* 1.1.2
+  * Ajout de la commande pour faire varier la lumière si l'équipement le permet
+* 1.2 
+  * Ajout du widget lumière avec réglage de la luminisité

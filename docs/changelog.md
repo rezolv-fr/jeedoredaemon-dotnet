@@ -23,3 +23,5 @@
   * widget lumière : ignorer le slider si non dispo
 * 1.3.2
   * fix sur la sonde
+* 1.3.3
+  * fix shutter immage

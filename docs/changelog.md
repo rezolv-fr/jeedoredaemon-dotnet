@@ -16,3 +16,8 @@
   * Ajout de la commande pour faire varier la lumière si l'équipement le permet
 * 1.2 
   * Ajout du widget lumière avec réglage de la luminisité
+* 1.3
+  * Ajout des widgets chauffage : central, electrique et chuadière
+* 1.3.1
+  * fix sur une conversion implicite
+  * widget lumière : ignorer le slider si non dispo

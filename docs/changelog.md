@@ -25,3 +25,6 @@
   * fix sur la sonde
 * 1.3.3
   * fix shutter immage
+* 1.4
+  * add : application de la valeur de tous les chauffage pour les appliquer sur la centrale pour les commandes hvacMode et authorization
+  * add : ajout de la commande auto

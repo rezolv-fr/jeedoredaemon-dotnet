@@ -30,3 +30,6 @@
   * add : ajout de la commande auto
 * 1.4.1
   * fix : liste des commandes de la centrale a sommer
+* 1.5
+  * add : ajout des équipements de type others
+

@@ -32,4 +32,6 @@
   * fix : liste des commandes de la centrale a sommer
 * 1.5
   * add : ajout des équipements de type others
-
+* 1.6
+  * add : équipement de type alarm
+  * fix : gestion des commandes optionnelles sur le chauffage

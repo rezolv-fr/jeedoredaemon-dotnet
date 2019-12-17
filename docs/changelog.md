@@ -35,3 +35,7 @@
 * 1.6
   * add : équipement de type alarm
   * fix : gestion des commandes optionnelles sur le chauffage
+* 1.6.1
+  * add : classemnent des équipements par catégoriesort eqLogic by category, 
+  * add : ajout des valeurs pour les commandes des unités, min, max et step
+  * fix : type de subtype

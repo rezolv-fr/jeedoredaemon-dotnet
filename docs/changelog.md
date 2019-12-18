@@ -39,3 +39,5 @@
   * add : classemnent des équipements par catégoriesort eqLogic by category, 
   * add : ajout des valeurs pour les commandes des unités, min, max et step
   * fix : type de subtype
+* 1.6.2
+  * add : ajout des equipements fenêtre coulissantes

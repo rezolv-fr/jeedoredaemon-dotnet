@@ -40,4 +40,6 @@
   * add : ajout des valeurs pour les commandes des unités, min, max et step
   * fix : type de subtype
 * 1.6.2
-  * add : ajout des equipements fenêtre coulissantes
+  * add : ajout des equipements fenêtre coulissantes4
+* 1.6.3
+  * add : ajout de 27 commandes

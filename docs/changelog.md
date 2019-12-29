@@ -53,3 +53,6 @@
 * 1.6.5
   * add : nouvelle categorie d'équipement : not-managed
   * add : ajout de la categorie window dans Fénêtres
+* 1.6.6
+  * add : ajout de la configuration de l'adresse et du port de Jeedom pour docker
+  * add : ajout de la configuration du code l'alarme

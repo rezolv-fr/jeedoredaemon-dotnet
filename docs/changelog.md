@@ -43,3 +43,10 @@
   * add : ajout des equipements fenêtre coulissantes4
 * 1.6.3
   * add : ajout de 27 commandes
+* 1.6.4
+  * add : type d'équipement window
+  * add : type d'équipement conso
+  * fix : a chaque synchronisation d'équipement, les propriétés suivantes dans Jeedom ne sont pas changées : name, enable, visible, category, tags, order
+  * fix : changement de logs lorsqu'un equipement n'est pas trouvé pour la création d'une commande
+  * add : ajout des commandes : config, lightPower, lightPowerStep, supervisionMode
+  * add : ajout du type équipement not-managed, équipement gérer par une Lifedomus

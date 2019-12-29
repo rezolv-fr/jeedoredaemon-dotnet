@@ -50,3 +50,6 @@
   * fix : changement de logs lorsqu'un equipement n'est pas trouvé pour la création d'une commande
   * add : ajout des commandes : config, lightPower, lightPowerStep, supervisionMode
   * add : ajout du type équipement not-managed, équipement gérer par une Lifedomus
+* 1.6.5
+  * add : nouvelle categorie d'équipement : not-managed
+  * add : ajout de la categorie window dans Fénêtres

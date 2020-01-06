@@ -56,3 +56,8 @@
 * 1.6.6
   * add : ajout de la configuration de l'adresse et du port de Jeedom pour docker
   * add : ajout de la configuration du code l'alarme
+* 1.6.7
+  * fix : changement de commande toggle en levelCmdToggle
+  * add : authentification alarme
+  * fix : object VS jeeObject
+  * 

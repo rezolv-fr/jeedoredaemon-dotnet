@@ -60,4 +60,5 @@
   * fix : changement de commande toggle en levelCmdToggle
   * add : authentification alarme
   * fix : object VS jeeObject
-  * 
+* 1.7
+  * add : ajout des stores

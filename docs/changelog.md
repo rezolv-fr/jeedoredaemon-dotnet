@@ -65,3 +65,6 @@
 * 1.7.1
   * update : rename many cmds
   * fix : jeedore_jeedomconfig.json can be empty
+* 1.7.2
+  * fix : changement des noms de commandes pour les icônes
+  * fix : openstate -> openState

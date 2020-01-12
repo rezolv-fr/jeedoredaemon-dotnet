@@ -62,3 +62,6 @@
   * fix : object VS jeeObject
 * 1.7
   * add : ajout des stores
+* 1.7.1
+  * update : rename many cmds
+  * fix : jeedore_jeedomconfig.json can be empty

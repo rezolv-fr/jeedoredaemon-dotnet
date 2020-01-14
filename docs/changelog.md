@@ -68,3 +68,5 @@
 * 1.7.2
   * fix : changement des noms de commandes pour les icônes
   * fix : openstate -> openState
+* 1.7.3
+  * add : ajout des commandes setModeAsso, setRecFav1, setRecFav2, setTimeDelay, setBoostOn, setBoostOff, 

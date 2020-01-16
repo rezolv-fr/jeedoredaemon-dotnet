@@ -70,3 +70,7 @@
   * fix : openstate -> openState
 * 1.7.3
   * add : ajout des commandes setModeAsso, setRecFav1, setRecFav2, setTimeDelay, setBoostOn, setBoostOff, 
+* 1.7.4
+  * fix : melamge des commandes level, levelCmd et positionCmd
+  * add : ajout de COOLING pour le chauffage
+  * 

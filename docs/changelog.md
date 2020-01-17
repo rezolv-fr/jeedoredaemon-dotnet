@@ -73,4 +73,4 @@
 * 1.7.4
   * fix : melamge des commandes level, levelCmd et positionCmd
   * add : ajout de COOLING pour le chauffage
-  * 
+  * fix : setLevel renommé en level

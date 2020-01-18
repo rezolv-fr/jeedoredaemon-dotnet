@@ -74,3 +74,6 @@
   * fix : melamge des commandes level, levelCmd et positionCmd
   * add : ajout de COOLING pour le chauffage
   * fix : setLevel renommé en level
+* 1.7.5
+  * fix : cmd level en action
+  * add : ajout de devices access

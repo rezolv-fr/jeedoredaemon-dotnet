@@ -71,9 +71,14 @@
 * 1.7.3
   * add : ajout des commandes setModeAsso, setRecFav1, setRecFav2, setTimeDelay, setBoostOn, setBoostOff, 
 * 1.7.4
-  * fix : melamge des commandes level, levelCmd et positionCmd
+  * fix : melange des commandes level, levelCmd et positionCmd
   * add : ajout de COOLING pour le chauffage
   * fix : setLevel renommé en level
 * 1.7.5
   * fix : cmd level en action
   * add : ajout de devices access
+* 1.8
+  * add : nouvelles cmds : setAlarmCmd, setZoneCmd, setCooling
+  * add : authentificationRequired pour la config de l'alarme
+  * fix : setLevelCmdOn : changement du paramètre de '0' à 'ON'
+* 

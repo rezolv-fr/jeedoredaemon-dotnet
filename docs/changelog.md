@@ -77,3 +77,8 @@
 * 1.7.5
   * fix : cmd level en action
   * add : ajout de devices access
+* 1.8
+  * add : alarme
+* 1.8.1
+  * fix : authentification de l'alarme
+  * add : ajout du type klineWindowFrench, klineWindowOthers

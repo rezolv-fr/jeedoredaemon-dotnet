@@ -82,3 +82,6 @@
 * 1.8.1
   * fix : authentification de l'alarme
   * add : ajout du type klineWindowFrench, klineWindowOthers
+* 1.8.2
+  * fix : changement du repertoire des fichiers de config
+  * fix : changement du nom du parametre pour le mode de l'alarme

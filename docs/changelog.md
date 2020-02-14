@@ -82,3 +82,5 @@
 * 1.8.1
   * fix : authentification de l'alarme
   * add : ajout du type klineWindowFrench, klineWindowOthers
+* 1.8.2
+  * add : get all energyHisto

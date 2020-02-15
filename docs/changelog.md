@@ -85,4 +85,6 @@
 * 1.8.2
   * add : ajout de la commande energyHisto
   * add : ajout du type d'équipement windowFrench
-* 
+* 1.8.3
+  * add : amélioration apporté par Tonyb0t77
+  * fix : affichage d'un message d'erreur lors de l'execution d'une commande pour l'alarme

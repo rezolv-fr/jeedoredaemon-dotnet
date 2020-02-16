@@ -2,8 +2,6 @@
 
 Le plugin **JeeDore** permet de piloter les équipements [DeltaDore]("https://www.deltadore.fr/") via une box Tydom.
 Ainsi, les équipements compatibles avec Tydom peuvent être pilotés par Jeedom.
-Certaines icones du plugin proviennent du site https://icones8.fr/
-
 
 # Installation
 

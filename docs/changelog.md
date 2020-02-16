@@ -88,3 +88,5 @@
 * 1.8.3
   * add : amélioration apporté par Tonyb0t77
   * fix : affichage d'un message d'erreur lors de l'execution d'une commande pour l'alarme
+* 1.8.3.1
+  * fix : exception levée lorsque le statut d'une conso est KO

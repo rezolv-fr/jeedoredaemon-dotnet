@@ -90,3 +90,8 @@
   * fix : affichage d'un message d'erreur lors de l'execution d'une commande pour l'alarme
 * 1.8.3.1
   * fix : exception levée lorsque le statut d'une conso est KO
+* 1.8.4
+  * add : refonte du cron interne au daemon
+  * fix : le type d'equipement $doors mal affiché dans la liste des equipements
+  * fix : utilisation de la conf pr le hvac
+* 

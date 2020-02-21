@@ -97,3 +97,5 @@
 * 1.8.5
   * add : ajout de la commande energyInstant
   * add : ajout d'un cron interne au daemon
+* 1.8.5.1
+  * fix : unité et formatage de energyInstant

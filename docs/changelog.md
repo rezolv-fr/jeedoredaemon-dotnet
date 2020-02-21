@@ -94,4 +94,6 @@
   * add : refonte du cron interne au daemon
   * fix : le type d'equipement $doors mal affiché dans la liste des equipements
   * fix : utilisation de la conf pr le hvac
-* 
+* 1.8.5
+  * add : ajout de la commande energyInstant
+  * add : ajout d'un cron interne au daemon

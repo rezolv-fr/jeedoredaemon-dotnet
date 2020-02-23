@@ -99,3 +99,5 @@
   * add : ajout d'un cron interne au daemon
 * 1.8.5.1
   * fix : unité et formatage de energyInstant
+* 1.8.6
+  * fix : compilation en dotnet 3.1

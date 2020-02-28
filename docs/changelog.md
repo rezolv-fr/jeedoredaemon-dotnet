@@ -103,3 +103,6 @@
   * fix : compilation en dotnet 3.1
 * 1.8.7
   * add : ajout de l'alarme sans authentification
+* 1.8.8
+  * add : ajour d'energyDistrib et energyIndex
+  * add : l'ip de jeedom peut avoir un chemin

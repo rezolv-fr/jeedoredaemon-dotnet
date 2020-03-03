@@ -106,3 +106,7 @@
 * 1.8.8
   * add : ajour d'energyDistrib et energyIndex
   * add : l'ip de jeedom peut avoir un chemin
+* 1.8.9
+  * add : alarmId dans la configuration de jeedom pour que le fichier de conf soit bien crée
+  * add : historisation des types string
+  * add : suppression de l'alarmId lors de la synchro

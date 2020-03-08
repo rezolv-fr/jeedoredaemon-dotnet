@@ -110,3 +110,7 @@
   * add : alarmId dans la configuration de jeedom pour que le fichier de conf soit bien crée
   * add : historisation des types string
   * add : suppression de l'alarmId lors de la synchro
+* 1.8.10
+  * add : ajout des commandes gethisto et lasthisto
+  * fix : changement du chemin du pid
+  * add : ajout du generateur de message

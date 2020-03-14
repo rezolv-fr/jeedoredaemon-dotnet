@@ -113,4 +113,8 @@
 * 1.8.10
   * add : ajout des commandes gethisto et lasthisto
   * fix : changement du chemin du pid
-  * add : ajout du generateur de message
+  * add : ajout du generateur de messages
+* 1.8.11
+  * fix : #accessZone# non remplacé
+  * fix : retour de getHisto souleve une exception non gérée
+  * 

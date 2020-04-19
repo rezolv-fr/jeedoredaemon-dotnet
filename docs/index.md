@@ -9,7 +9,7 @@ Ainsi, les équipements compatibles avec Tydom peuvent être pilotés par Jeedom
 
 Le plugin **JeeDore** doit être installé via le market Jeedom.
 
-![JeeDore Market](./assets/images/jeedore_icon.png "JeeDore Market")
+![JeeDore Market](./assets/images/jeedoreiconmarket.png "JeeDore Market")
 
 Dès que le plugin est installé, il suffit d'activer le plugin.
 
@@ -65,21 +65,13 @@ Il suffit de clicker sur le bouton _Sauvgarder_ pour appliquer les modifications
 
 ## Plateforme
 
-**JeeDore** est compatible sur les plateformes Jeedom suivantes :
+**JeeDore** est compatible sur les plateformes suivantes :
 * Docker (testé sur Synology)
-* Raspberry Pi 2, 3, 4
+* Raspberry Pi 2, 3
 * Jeedom Smart
 * Freebox Delta
 
 > Si une plateformne n'est pas mentionnée, cela signifie qu'aucun retour utilisateur a été fait.
-
-Pour que **JeeDore** puisse piloter des équipements de la marque Delta Dore, il utilise une box Tydom.
-Les boxes Delta Dore compatibles sont :
-* [Tydom 1.0](https://www.deltadore.fr/domotique/pilotage-maison-connectee/box-domotique/tydom-1-0-ref-6700103)
-* [Tydom 2.0](https://www.deltadore.fr/domotique/pilotage-maison-connectee/box-domotique/tydom-2-0-ref-6414118)
-
-Les boxes Delta Dore incompatibles sont :
-* Tydom 2000
 
 ## Type d'équipement et commande
 
@@ -122,7 +114,7 @@ Les boxes Delta Dore incompatibles sont :
 
   * play : executer un scénario défini sur la box Tydom
 
-### Ouvrants
+### Volets roulants
 ![JeeDore Market](./assets/images/shutter_60.png "JeeDore Market")
 
 * up : monte le volet
@@ -132,55 +124,13 @@ Les boxes Delta Dore incompatibles sont :
   > Cette commande n'est pas compatible avec tous les modèles de volet. Pour palier, il suffit de faire un scénario sur Jeedom, de _up_ le volet, faire une pause de 2s et de faire un _stop_
 * getPosition : pourcentage d'ouverture du volet
 
-#### Modèles validés
-
-*Pack pour volets roulants*
-> Pack Tyxia : 540, 630
-
-*Récepteurs pour portail ou porte de garage*
-> Tyxia : 4620, 6410
-
-*Récepteurs*
-> Tyxia : 5630, 4630, 4730, 4731
-
-*Moteurs*
-> Pack Rollia : 10, 30
-> RL : 5010 BO, 5010 BOT, 5020 BO, 5020 BOT, 5030 BO, 5030 BOT 
-
-*Stores* :
-> Stores Well’Com
-
-Liste des équipements non confirmé, il est probable que seul l'info de la batterie de la télécommande soit retourné :
-> Tyxia : 1612, 1600, 1400, 2310, 4000
-
-Liste des équipements à valider :
-> Tyxia 5612
-
-
 ### Lumière
 ![JeeDore Market](./assets/images/light_30.png "JeeDore Market")
 
-  * setLevelCmdOn : allumer
-  * setLevelCmdOff : éteindre
-  * setLevelCmdToggle : inverse la position de la lumière
-  * setLevel : défini l'intensité de la lumière en pourcentage
-  * setRecFav1 : défini une valeur en favori pour le créneau 1
-  * setRecFav2 : défini une valeur en favori pour le créneau 2
-  * setLevelCmdFavorit1 : défini l'intensité de la lumière défini dans le créneau 1
-  * setLevelCmdFavorit2 : défini l'intensité de la lumière défini dans le créneau 2
-  * setModeAsso : mets l'équipement en mode association
-  * levelCmd : retour d'état pour connaître l'intensité en pourcentage
-
-#### Modèles validés
-
-*Récépteur simple allumage*
-> Tyxia : 4610, 46XX, 4910
-
-*Récépteur variation d'allumage*
-> Tyxia : 4801, 4811, 4840, 4840
-
-*Intérrupteurs / Récepteurs*
-> Tyxia 6610, 5610
+  * levelon : allumer
+  * leveloff : éteindre
+  * levelCmdToggle : inverse la position de la lumière
+  * getLevel : retour d'état pour connaître l'intensité en pourcentage
 
 ### Porte d'entrée
 ![JeeDore Market](./assets/images/door_unlocked.png "JeeDore Market")
@@ -188,66 +138,27 @@ Liste des équipements à valider :
 * openstate : retour d'état pour savoir si une porte est ouverte
 
 ### Chauffage/climatisation
-![JeeDore Market](./assets/images/thermostat.png "JeeDore Market")
-  * setHvacMode : défini le mode 
-  * setSetpoint :  défini la température à atteindre
-  * setModeAsso : mets l'équipement en mode association
 
+![JeeDore Market](./assets/images/thermostat.png "JeeDore Market")
+
+#### Commandes
+
+  * modifier la température à atteindre
+  * valeur de la température
+  * toutes les autres fonctionnalités sont en cours de developpement
 #### Modèles validés
 
-*Chaudière et pompes à chaleur*
-* Thermostats programmables
-> Tybox 800, 801, 810, 811, 812, 813, 820, 821, 137, 237, 337, 437, Pack promo Tybox 137, Pack promo radio 811+1
+* DELTA 8000 TA RF
 
-* Thermostats programmables RT 2012
-> Tybox 1010 P, 1010 WT, 2000 WT, 2010 P, 2010 WT, 2020 P, 2020 WT
-
-* Thermostats d’ambiance
-> Tybox : Pack 4100, Pack 4110, Pack 4150, Pack 4210, Pack 4250, 5100, 5101, 5150, 
-
-*Chauffage électrique*
-* Gestionnaire d’énergie 
-> Calybox 1020 P, 1020 WT, 2020 P, 2020 WT, 210, 220, 220 WT, 230, 230 WT, 320, 320 WT, 330, 420, 430
-
-* Gestionnaire d’énergie RT 2012
-> Calybox 1020 P, 1020 WT, 2020 P, 2020 WT
-
-* Récepteur pour plancher rayonnant électrique
-> RF 4890
-
-* Indicateur de consommation
-> Tywatt : 1000, 1000 P, 2000, 2000 P, 5200
-
-* Fil pilote connecté
-> Pack RF6600 FP 
-
+> Cette liste n'est pas exhaustive
 
 ### Alarme
-#### Modèles validés
-*Alarme Tyxal*
-> Kit 20Kit, 30Kit, 5Kit, 50Kit, 51Kit, 70Kit, 71CSTX, 50CSX, 20CSX, 40CTX, CTX 60, Pack appartement, Pack maison, Pack maison animaux 
-
-*Alarme Evology*
-> Pack Evology 2 zones, 4 zones 
-
-*Alarme Deltal*
-> Pack : 2.00, 2.10, 2.15, 2.50, 3.00, 4.00, 4.00 A, 4.01, 4.50 GSM, 4.50, 4.50 A, 7.00
-
-*Alarme Tyxal+*
-> Pack Tyxal+, CS 8000 Tyxal+
+* prévu
+### Fenêtre
+* prévu
 
 
 > Tous les équipements DeltaDore ne sont pas encore tous compatibles. La prise en charge de nouveaux équipements est en cours.
-
-
-### Caméra
-
-Liste des équipements pas encore traités :
-> Toutes les caméras
-
-Liste des équipements non compatible :
-* Tycam 1000 car non compatible Tydom 1.0
-
 
 # Utilisation
 
